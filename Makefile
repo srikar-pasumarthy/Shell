@@ -6,7 +6,7 @@ OBJECTS= parse.o builtin.o jobs.o history.o
 
 CFLAGS= -Wall -Werror -g
 
-.PHONY: all update clean
+.PHONY: all clean
 
 all: $(TARGETS)
 
