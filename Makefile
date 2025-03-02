@@ -22,8 +22,5 @@ parser_tester: parser_tester.c $(OBJECTS) $(HEADERS)
 test_env: test_env.c $(OBJECTS) $(HEADERS)
 	gcc $(CFLAGS) test_env.c $(OBJECTS) -o test_env
 
-update:
-	git pull https://github.com/comp530-f23/thsh.git lab2
-
 clean:
 	rm -f $(TARGETS) $(OBJECTS)
